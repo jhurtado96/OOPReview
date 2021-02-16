@@ -92,4 +92,6 @@ export class Mobile{
         console.log("The characteristics of the mobile " +this.name+ " are:\n" + espacios + "Name: "+this.name+ "\n"+espacios+"Model: "+this.model+ "\n"+espacios+"Trademark: "+this.trademark+ "\n"+espacios+"SD Size: "+this.sdSize+ "\n"+espacios+"Color: "+this.color+ "\n"+espacios+"Is 5g?: "+this.is5g+ "\n"+espacios+"Number of Cameras: "+this.cameraNumber)
     }
 
+    
+
 }
