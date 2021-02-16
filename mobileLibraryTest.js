@@ -8,4 +8,4 @@ var SamsungGalaxy10 = new Mobile_1.Mobile("Samsung", "Galaxy10", "SamsungCorp", 
 var SamsungGalaxy11 = new Mobile_1.Mobile("Samsung", "Galaxy10", "SamsungCorp", 40, "Amarillo", false, 1, 999);
 var arrayMobiles = [Nokia3210, iPhone3G, SamsungGalaxy10, SamsungGalaxy11];
 var mobileLibrarita = new MobileLibrary_1.MobileLibrary("The phone house", "Madrid", arrayMobiles);
-console.log(mobileLibrarita.getTotalPrice());
+mobileLibrarita.printLibrary();

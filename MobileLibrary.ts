@@ -53,11 +53,19 @@ export class MobileLibrary{
     public setTotalPrice(totalPrice: number) {
         this.totalPrice = totalPrice;
     }
-    public totalPriceCalculation():number{
+    private totalPriceCalculation():number{
         let precio=0
         for(let i=0;i<this.getMobile().length;i++){
             precio += this.getMobile()[i].getPrice()
         }
         return precio
+    }
+
+    public printLibrary(){
+        console.log("This is all my mobiles:")
+        for(let i=0;i<this.getMobile().length;i++){
+            this.mobile[i].mostrarDatos()
+        }
+        console.log("Price Overall: " + this.getTotalPrice())
     }
 }

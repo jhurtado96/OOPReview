@@ -39,6 +39,13 @@ var MobileLibrary = /** @class */ (function () {
         }
         return precio;
     };
+    MobileLibrary.prototype.printLibrary = function () {
+        console.log("This is all my mobiles:");
+        for (var i = 0; i < this.getMobile().length; i++) {
+            this.mobile[i].mostrarDatos();
+        }
+        console.log("Price Overall: " + this.getTotalPrice());
+    };
     return MobileLibrary;
 }());
 exports.MobileLibrary = MobileLibrary;

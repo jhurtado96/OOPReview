@@ -9,4 +9,4 @@ let arrayMobiles=[Nokia3210,iPhone3G,SamsungGalaxy10,SamsungGalaxy11]
 
 let mobileLibrarita = new MobileLibrary("The phone house","Madrid",arrayMobiles)
 
-console.log(mobileLibrarita.getTotalPrice())
+mobileLibrarita.printLibrary()
