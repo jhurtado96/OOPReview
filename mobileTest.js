@@ -12,3 +12,4 @@ Nokia3210.setIs5g(true);
 console.log(Nokia3210.toString());
 console.log(iPhone3G.toString());
 console.log(SamsungGalaxy10.toString());
+Nokia3210.mostrarDatos();

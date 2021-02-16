@@ -63,6 +63,10 @@ var Mobile = /** @class */ (function () {
     Mobile.prototype.toString = function () {
         return " Nombre: " + this.name + " Model: " + this.model + " Trademark: " + this.trademark + " Tamanyo SD: " + this.sdSize + " Color: " + this.color + " 5G: " + this.is5g + " Numero de camara: " + this.cameraNumber + " Precio: " + this.price;
     };
+    Mobile.prototype.mostrarDatos = function () {
+        var espacios = "   * ";
+        console.log("The characteristics of the mobile " + this.name + " are:\n" + espacios + "Name: " + this.name + "\n" + espacios + "Model: " + this.model + "\n" + espacios + "Trademark: " + this.trademark + "\n" + espacios + "SD Size: " + this.sdSize + "\n" + espacios + "Color: " + this.color + "\n" + espacios + "Is 5g?: " + this.is5g + "\n" + espacios + "Number of Cameras: " + this.cameraNumber);
+    };
     return Mobile;
 }());
 exports.Mobile = Mobile;
